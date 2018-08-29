@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class App extends Component {
   render() {
+    console.log("store", this.props.store);
     const todos = [
       {
         title: "先玩一下 mobx",
@@ -24,6 +25,7 @@ class App extends Component {
         id: 4
       }
     ];
+
     return (
       <div>
         <ul>
